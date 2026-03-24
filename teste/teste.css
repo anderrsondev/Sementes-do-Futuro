@@ -1,0 +1,33 @@
+:root {
+    --cor-primaria: #693efe ;
+    --cor-secundaria: #a77d61 ;
+    --cor-danger: #ff0909 ;
+    --cor-warning: #ffb3b3 ;
+    --fundo-escuro:  hsl(0, 0%, 0%) ;
+    --fundo-claro:  #ffffff ;
+    
+}
+
+h1 {
+    background-color: var(--cor-primaria) ;
+}
+
+ul {
+    background-color: var(--cor-secundaria);
+}
+
+li {
+    background-color: var(--cor-warning);
+}
+
+p {
+    background-color: var(--cor-danger);
+}
+
+
+.cartao--escuro {
+    background-color: var(--fundo-escuro);
+    color: white;
+    height: 50vh;
+}
+

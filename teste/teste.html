@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>TESTE COMANDO ROOT</title>
+    <link rel="stylesheet" href="./teste.css">
+
+</head>
+
+<body>
+    <h1>teste</h1>
+
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <p>teste 1 2 3 4 </p>
+    
+        <div class="cartao">
+            <button class="cartao__botao">Modo Escuro</button>
+        </div>
+
+</body>
+
+<script>
+    const botao = document.querySelector('.cartao__botao');
+    const cartao = document.querySelector('.cartao');
+    botao.addEventListener('click', () => {
+    cartao.classList.toggle('cartao--escuro');
+    });
+</script>
+
+</html>
