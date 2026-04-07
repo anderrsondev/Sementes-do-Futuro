@@ -39,8 +39,6 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 
-
-
 body{
   display: flex;
   justify-content: center;
@@ -49,12 +47,29 @@ body{
   height: 100vh;
 }
 
-
 .calculadora {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  background-color: rgb(32, 48, 141);
+  padding: 10px;
   border: 1px solid black;
+}
+
+.calculadora div {
+  background-color: #ffffff;
+  border: 1px solid rgb(3, 0, 0);
+  padding: 10px;
+  font-size: 30px;
+  text-align: end ;
+}
+
+.area-botao {
+  display: grid ;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px ;
+  padding: 20px ;
+}
+
+.botao-zero {
+  grid-column: span 2;
 }
 
