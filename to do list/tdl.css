@@ -1,0 +1,21 @@
+.todolist {
+  display: center;
+  background-color: rgb(32, 48, 141);
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.todolist div {
+    background-color: #ffffff;
+    border: 1px solid rgb(3, 0, 0);
+    padding: 10px;
+    font-size: 30px;
+    text-align: flex ;
+}
+
+.remover{
+    background-color : red;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
