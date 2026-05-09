@@ -1,0 +1,11 @@
+nav {
+    font-family: OCR A Std, monospace
+}
+
+.section-hero {
+    margin: 0;
+    background-image: url("./G\ L\ O\ W.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh
+}
